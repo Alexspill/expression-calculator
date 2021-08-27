@@ -33,7 +33,6 @@ function expressionCalculator(expr) {
         '*' : (a, b) => (b * a),
         '/' : (a, b) => (b / a),  
     }
-
     // exprn.forEach(el => {
     //     console.log(typeof el);
     //     if (typeof el === "number") {
